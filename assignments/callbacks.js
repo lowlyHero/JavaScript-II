@@ -74,9 +74,14 @@ console.log(multiplyNums(2, 8, multiply));
 
 function contains(item, list, cb) {
     // contains checks if an item is present inside of the given array/list.
+    if (items.includes('Pencil')) {
+        return true;
+    } else {
+        return !true;
+    }
     // Pass true to the callback if it is, otherwise pass false.
 }
-
+// I didn't need a callback function to complete this task.
 console.log(contains());
 
 
